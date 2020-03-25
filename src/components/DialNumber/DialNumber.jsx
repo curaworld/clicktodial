@@ -2,8 +2,8 @@ import React from "react";
 import { Button } from "./DialNumber.styles";
 import * as Flex from "@twilio/flex-ui";
 
-export const DialNumber = ({ number }) => {
-  const onClick = (number) => {
+export const DialNumber = ({  }) => {
+  const onClick = () => {
     Flex.Actions.invokeAction("StartOutboundCall", { destination: phoneNumber.current.value });
   };
 

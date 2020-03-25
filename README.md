@@ -1,8 +1,18 @@
 # Click to Dial Flex Plugin
 
 Twilio Flex Plugins allow you to customize the appearance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
+Flex Dialpad documentation can be found at [Flex Dialpad](https://www.twilio.com/docs/flex/dialpad).
+
+
 
 In this plugin we have used Twilio Flex's Native Outbound Calling API i.e. Action Framework's action startOutboundCall. 
+Read more about this Action [here](http://media.twiliocdn.com/sdk/js/flex/releases/1.17.0-rc2/docs/Actions.html#StartOutboundCall)
+
+
+A high level flow diagram explaining the flow is shown below
+![Click to Dial From React Component](./images/Click-to-dial-react-component.png)
+
+
 
 ## Setup
 
