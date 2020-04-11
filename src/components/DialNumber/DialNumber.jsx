@@ -14,7 +14,7 @@ export const DialNumber = ({  }) => {
       <input type="text" id="phoneNumber" ref={phoneNumber} />
       <Button
         type="button"
-        value="CAll"
+        value="Call"
         onClick={onClick}>
         CALL
       </Button>
