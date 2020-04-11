@@ -6,7 +6,7 @@ Flex Dialpad documentation can be found at [Flex Dialpad](https://www.twilio.com
 
 
 In this plugin we have used Twilio Flex's Native Outbound Calling API i.e. Action Framework's action startOutboundCall. 
-Read more about this Action [here](http://media.twiliocdn.com/sdk/js/flex/releases/1.17.0-rc2/docs/Actions.html#StartOutboundCall)
+Read more about this Action [here](https://assets.flex.twilio.com/releases/flex-ui/1.18.0/docs/Actions.html)
 
 
 A high level flow diagram explaining the flow is shown below
