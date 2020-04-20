@@ -4,7 +4,9 @@ import * as Flex from "@twilio/flex-ui";
 
 export const DialNumber = ({  }) => {
   const onClick = () => {
-    Flex.Actions.invokeAction("StartOutboundCall", { destination: phoneNumber.current.value });
+    let attributes = {};
+    attributes = {"zd_ticket_id": 10};  // add some customer attribute
+    Flex.Actions.invokeAction("StartOutboundCall", { destination: phoneNumber.current.value, taskAttributes:attributes });
   };
 
   let phoneNumber = React.createRef();
