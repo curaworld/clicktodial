@@ -1,5 +1,5 @@
 {
-  "name": "plugin-click-to-dial-tutorial",
+  "name": "plugin-click-to-dial",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -27,7 +27,7 @@
     "react-scripts": "3.4.0"
   },
   "devDependencies": {
-    "@twilio/flex-ui": "^1",
+    "@twilio/flex-ui": "^1",//should this not be 1.27.6?
     "babel-polyfill": "^6.26.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",

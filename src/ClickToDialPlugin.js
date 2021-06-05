@@ -6,9 +6,9 @@ import { FlexPlugin } from 'flex-plugin';
 import { DialNumber } from "./components/DialNumber/DialNumber";
 import reducers, { namespace } from './states';
 
-const PLUGIN_NAME = 'ClickToDialTutorialPlugin';
+const PLUGIN_NAME = 'ClickToDialPlugin';
 
-export default class ClickToDialTutorialPlugin extends FlexPlugin {
+export default class ClickToDialPlugin extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
   }

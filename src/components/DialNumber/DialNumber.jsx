@@ -5,7 +5,7 @@ import * as Flex from "@twilio/flex-ui";
 export const DialNumber = ({  }) => {
   const onClick = () => {
     let attributes = {};
-    attributes = {"zd_ticket_id": 10};  // add some customer attribute
+    attributes = {"Cura_RPM_Id": 10};  // does Cura_RPM_Id need to go anywhere else
     Flex.Actions.invokeAction("StartOutboundCall", { destination: phoneNumber.current.value, taskAttributes:attributes });
   };
 

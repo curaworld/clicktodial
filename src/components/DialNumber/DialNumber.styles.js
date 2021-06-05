@@ -7,7 +7,7 @@ export const Button = styled("button")`
   border: none;
   box-shadow: none;
   background: ${p => p.theme.colors.flexBlueColor};
-  color: #fff;
+  color: #82D2F4;
   text-transform: uppercase;
   font-size: 10px;
   width: 100px;

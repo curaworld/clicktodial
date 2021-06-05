@@ -1,13 +1,13 @@
 [
   {
-    "name": "ClickToDialTutorialPlugin",
+    "name": "ClickToDialPlugin",
     "version": "0.0.0",
-    "class": "ClickToDialTutorialPlugin",
+    "class": "ClickToDialPlugin",
     "requires": [
       {
         "@twilio/flex-ui": "^1"
       }
     ],
-    "src": "http://127.0.0.1:8085"
+    "src": "http://127.0.0.1:3000"//I changed port to 3000, should this also be my local number 192.168.20
   }
 ]

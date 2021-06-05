@@ -1,4 +1,4 @@
 import * as FlexPlugin from 'flex-plugin';
-import ClickToDialTutorialPlugin from './ClickToDialTutorialPlugin';
+import ClickToDialPlugin from './ClickToDialPlugin';
 
-FlexPlugin.loadPlugin(ClickToDialTutorialPlugin);
+FlexPlugin.loadPlugin(ClickToDialPlugin);
