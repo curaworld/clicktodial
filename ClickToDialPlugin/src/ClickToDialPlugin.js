@@ -2,8 +2,7 @@ import React from 'react';
 import { VERSION } from '@twilio/flex-ui';
 import { FlexPlugin } from 'flex-plugin';
 
-//import CustomTaskListContainer from './components/CustomTaskList/CustomTaskList.Container';
-import { DialNumber } from "./components/DialNumber/DialNumber";
+import CustomTaskListContainer from './components/CustomTaskList/CustomTaskList.Container';
 import reducers, { namespace } from './states';
 
 const PLUGIN_NAME = 'ClickToDialPlugin';
@@ -24,28 +23,11 @@ export default class ClickToDialPlugin extends FlexPlugin {
     this.registerReducers(manager);
 
     const options = { sortOrder: -1 };
-
-    flex.AgentDesktopView.Panel2.Content.replace(
-      <DialNumber key="demo-component" />,
-      options, {
-        align:"end"
-      }
-    );
-
-    // Flex.MainHeader.Content.add(<AnotherMuteButton key="mute"/>, {
-    //   align: “end”
-    // });
-
-    flex.AgentDesktopView.defaultProps.splitterOptions = {
-      initialFirstPanelSize: "400px"
-    };
-
-    /*flex.AgentDesktopView
+    flex.AgentDesktopView
       .Panel1
       .Content
-      .add(<CustomTaskListContainer key="demo-component" />, options); */
+      .add(<CustomTaskListContainer key="ClickToDialPlugin-component" />, options);
   }
-
 
   /**
    * Registers the plugin reducers
